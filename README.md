@@ -1,1 +1,1 @@
-# courseJavaScriptPro by Emanuel Hardwell
+# courseJavaScriptPro by Adrian Heras (Dorian Desings)
