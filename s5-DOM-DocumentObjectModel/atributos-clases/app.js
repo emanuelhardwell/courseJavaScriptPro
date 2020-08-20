@@ -37,3 +37,11 @@ if (listaRemover.classList.contains("nombre")) {
 const listaRemplazar = document.getElementById("contrasena");
 listaRemplazar.classList.replace("contrasena", "contrasena-nueva");
 console.log(listaRemplazar);
+
+/* id ----value */
+const tema = document.getElementById("tema");
+console.log(tema.textContent); /* selecciona solo el texto */
+console.log(tema.innerHTML); /* selecciona el texto y elementos dentro de el */
+
+const valor = document.getElementById("nombre");
+console.log(valor.value.length);
