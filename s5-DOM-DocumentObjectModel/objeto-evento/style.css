@@ -1,0 +1,21 @@
+body {
+  background-image: radial-gradient(circle, rgb(53, 50, 50), rgb(51, 45, 45));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+}
+
+.boton1,
+.boton2,
+.boton3,
+.boton4,
+.boton-enviar,
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+}

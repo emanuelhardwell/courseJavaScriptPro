@@ -1,0 +1,30 @@
+/*  */
+
+body {
+  background-image: radial-gradient(circle, rgb(80, 75, 75), rgb(100, 99, 99));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
