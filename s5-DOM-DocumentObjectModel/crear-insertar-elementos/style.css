@@ -1,0 +1,19 @@
+/*  */
+body {
+  background-image: radial-gradient(circle, rgb(49, 47, 47), rgb(82, 79, 79));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+}
+
+.box {
+  width: 300px;
+  height: 60px;
+  background-color: red;
+}
+
+.box2 {
+  width: 300px;
+  height: 60px;
+  background-color: blue;
+}
