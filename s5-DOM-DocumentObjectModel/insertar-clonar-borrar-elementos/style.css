@@ -1,0 +1,19 @@
+/*  */
+
+body {
+  background-image: radial-gradient(circle, rgb(65, 62, 62), rgb(80, 68, 68));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+  margin: 0px;
+}
+
+.lista {
+  background-color: lightcoral;
+  color: black;
+}
+
+.listaPro {
+  background-color: lightgreen;
+  color: black;
+}
