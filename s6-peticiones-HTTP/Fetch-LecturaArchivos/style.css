@@ -1,0 +1,18 @@
+/*  */
+/*  */
+body {
+  background-image: radial-gradient(circle, rgb(78, 77, 77), rgb(73, 70, 70));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+}
+
+.img {
+  max-width: 80%;
+  margin: 0.2em;
+}
+
+.pdf {
+  text-decoration: none;
+  color: lightcoral;
+}
