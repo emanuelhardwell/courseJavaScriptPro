@@ -1,0 +1,20 @@
+/*  */
+/*  */
+body {
+  background-image: radial-gradient(circle, rgb(51, 48, 48), rgb(51, 46, 46));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+}
+
+table {
+  margin-top: 2em;
+  border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+  border: 2px solid lightcoral;
+  text-align: center;
+}
