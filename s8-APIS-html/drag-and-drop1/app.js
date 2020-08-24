@@ -32,20 +32,20 @@ smile.addEventListener("dragend", () => {
 
 dropZone.addEventListener("dragenter", (e) => {
   e.preventDefault();
-  console.log("A entrado a la zona destino");
+  console.log("a ENTRADO a la zona destino");
 });
 
 dropZone.addEventListener("dragover", (e) => {
   e.preventDefault();
-  console.log("Esta en la Zona destino");
+  console.log("esta SOBRE  la zona destino");
 });
 
 dropZone.addEventListener("drop", (e) => {
   e.preventDefault();
-  console.log("A soltado la imagen");
+  console.log("a SOLTADO la imagen dentro de la zona");
 });
 
 dropZone.addEventListener("dragleave", (e) => {
   e.preventDefault();
-  console.log("A salido a la zona destino");
+  console.log("a SALIDO de la zona destino");
 });
