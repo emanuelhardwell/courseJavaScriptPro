@@ -1,0 +1,28 @@
+/*  
+
+*/
+
+body {
+  background-image: radial-gradient(circle, rgb(66, 64, 64), rgb(58, 56, 56));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+  margin: 0px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.parrafo {
+  color: coral;
+  font-size: x-large;
+}
