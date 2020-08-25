@@ -16,20 +16,33 @@ body {
 .tarea-pendiente {
   background-color: lightcoral;
   width: 300px;
+  border: 4px solid black;
 }
 
 .tarea-finalizada {
   background-color: lightgreen;
   width: 300px;
+  border: 4px solid black;
 }
 
 .tarea {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 0.5rem;
   text-align: center;
+  cursor: move;
+}
+
+.tarea:nth-child(2) {
+  border-top: 1px solid #000;
+  /* background-color: red; */
 }
 
 .cambio {
-  background-color: #fff;
+  background-color: rgb(241, 98, 98);
+  color: black;
+}
+
+.cambio2 {
+  background-color: rgb(61, 219, 61);
   color: black;
 }

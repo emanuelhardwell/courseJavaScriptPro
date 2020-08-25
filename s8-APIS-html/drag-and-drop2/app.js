@@ -20,7 +20,7 @@ const tareaPendiente = document.getElementById("tarea-pendiente");
 const tareaFinalizada = document.getElementById("tarea-finalizada");
 
 tareaPendiente.addEventListener("dragstart", (e) => {
-  e.dataTransfer.setData("text/plain", e.target.id);
+  e.dataTransfer.setData("text", e.target.id);
 });
 
 tareaPendiente.addEventListener("drag", (e) => {
@@ -42,4 +42,30 @@ tareaFinalizada.addEventListener("drop", (e) => {
   const nuevo = document.getElementById(e.dataTransfer.getData("text"));
   nuevo.classList.remove("cambio");
   tareaFinalizada.appendChild(tareaPendiente.removeChild(nuevo));
+});
+
+/* ********** INVERSO DE TAREA FINALIZADA A PENDIENTE  ***************** */
+tareaFinalizada.addEventListener("dragstart", (e) => {
+  e.dataTransfer.setData("text", e.target.id);
+});
+
+tareaFinalizada.addEventListener("drag", (e) => {
+  e.target.classList.add("cambio2");
+});
+
+tareaFinalizada.addEventListener("dragend", (e) => {
+  /* e.preventDefault(); */
+  e.target.classList.remove("cambio2");
+});
+
+/*obligatorio, si no no funciona  */
+tareaPendiente.addEventListener("dragover", (e) => {
+  e.preventDefault();
+});
+
+tareaPendiente.addEventListener("drop", (e) => {
+  e.preventDefault();
+  const nuevo = document.getElementById(e.dataTransfer.getData("text"));
+  nuevo.classList.remove("cambio2");
+  tareaPendiente.appendChild(tareaFinalizada.removeChild(nuevo));
 });
