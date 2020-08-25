@@ -1,0 +1,44 @@
+/* 
+
+*/
+
+body {
+  background-image: radial-gradient(circle, rgb(71, 71, 71), rgb(34, 32, 32));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.titulo {
+  color: #fff;
+  margin: 5px;
+  text-align: center;
+}
+
+.box {
+  margin-left: 5px;
+  width: 480px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: lightcoral;
+}
+.box2 {
+  background-color: lightgreen;
+}
+
+.box3 {
+  background-color: lightblue;
+  height: 250px;
+}
+
+.imagen {
+  width: 42%;
+  margin: 5px;
+}
+
+.input,
+.parrafo {
+  margin: 5px;
+}
