@@ -1,0 +1,57 @@
+/* 
+ ------------------------------ BOX 1 --------------------
+*/
+body {
+  margin: 0;
+  background-color: darkslategray;
+  font-family: sans-serif;
+  color: #fff;
+  user-select: none; /* ??? */
+}
+
+.box1,
+.box2 {
+  margin: 10px;
+}
+
+.barra-progreso {
+  width: 50%;
+  background-color: #ccc;
+  height: 10px;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.progreso {
+  display: block;
+  background-color: royalblue;
+  height: 10px;
+  width: 0;
+}
+
+/* ------------------------------ BOX 2 --------------------*/
+/* 
+Se crea una VARIABLE para poder haceder desde JAVASCRIPT 
+*/
+:root {
+  --bar-width: 0;
+}
+
+.barra-progreso-pro {
+  width: 50%;
+  background-color: #ccc;
+  height: 10px;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.barra-progreso-pro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: royalblue;
+  width: var(--bar-width);
+  height: 10px;
+}
