@@ -1,0 +1,27 @@
+/* 
+ 
+*/
+
+body {
+  background-image: radial-gradient(circle, rgb(54, 52, 52), rgb(70, 53, 53));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.titulo {
+  margin-top: 5px;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin: 10px;
+}
+
+.contenedor {
+  background-color: rgb(70, 60, 60);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
