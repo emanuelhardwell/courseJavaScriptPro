@@ -1,0 +1,18 @@
+/* 
+
+*/
+body {
+  background-image: radial-gradient(circle, rgb(63, 61, 61), rgb(73, 70, 70));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  margin: 0px;
+}
+
+.titulo {
+  margin: 10px;
+}
+.video {
+  margin-left: 10px;
+  width: 90%;
+}
