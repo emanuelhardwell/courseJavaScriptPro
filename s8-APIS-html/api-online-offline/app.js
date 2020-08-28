@@ -11,10 +11,12 @@ addEventListener("offline", (e) => {
   setStatus(0);
 });
 
+/*  */
 const setStatus = (status) => {
   alerta.classList.remove("alert-online");
   alerta.classList.remove("alert-offline");
 
+  /* if (status=== 0){ } */ 
   if (navigator.onLine) {
     setTimeout(() => {
       alerta.classList.add("alert-online");
