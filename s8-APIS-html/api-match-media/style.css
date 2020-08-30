@@ -1,0 +1,31 @@
+/* 
+
+*/
+body {
+  background-color: #2a2a2a;
+  font-family: sans-serif;
+  margin: 0;
+  padding-bottom: 100rem;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: #fff;
+  }
+  .titulo {
+    color: #2a2a2a;
+  }
+}
+
+.body-azul {
+  background-color: blue;
+}
+
+.body-rojo {
+  background-color: red;
+}
