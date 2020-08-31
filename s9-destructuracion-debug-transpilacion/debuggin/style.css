@@ -1,0 +1,18 @@
+/* 
+*/
+body {
+  background-image: radial-gradient(circle, rgb(54, 54, 54), rgb(37, 37, 37));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.l {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.resultado {
+  color: blue;
+}
